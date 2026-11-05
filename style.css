@@ -141,3 +141,20 @@ header {
     }
   }
 }
+
+footer {
+  padding: 32px;
+  text-align: center;
+  background-color: #353434;
+  img {
+    height: 60px;
+  }
+  p {
+    margin: 16px 0;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+  }
+}
