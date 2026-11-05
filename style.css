@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+  img {
+    padding: 16px
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    a {
+      text-decoration: none;
+    }
+  }
+}
