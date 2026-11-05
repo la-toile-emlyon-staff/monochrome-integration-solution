@@ -19,6 +19,7 @@ h3 {
   font-size: 20px;
 }
 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -39,3 +40,25 @@ header {
     font-size: 16px;
   }
 }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-image: url(asset/bg-image-hero.png);
+  background-position: center;
+  background-size: cover;
+  min-height: 85vh;
+  display: flex;
+  align-items: center;
+  color: white;
+  .container {
+    width: 800px;
+  }
+  p {
+    font-weight: 400px;
+  }
+}
+
