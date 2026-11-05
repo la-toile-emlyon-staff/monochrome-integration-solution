@@ -53,6 +53,28 @@ header {
   margin: 0 auto;
 }
 
+.bouton {
+  padding: 7px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.bouton.sombre {
+  background-color: #353434;
+  color: white;
+}
+
+.bouton.clair {
+  background-color: white;
+  color: #353434;
+}
+
+.texte-blanc {
+  color: white;
+}
+
 .hero {
   background-image: url(asset/bg-image-hero.png);
   background-position: center;
@@ -60,7 +82,6 @@ header {
   min-height: 85vh;
   display: flex;
   align-items: center;
-  color: white;
   .container {
     width: 800px;
   }
@@ -84,15 +105,15 @@ header {
   }
 }
 
-.bouton {
-  padding: 7px 20px;
-  border-radius: 4px;
-  text-decoration: none;
-  display: inline-block;
-  margin-top: 24px;
-}
-
-.bouton.sombre {
-  background-color: #353434;
-  color: white;
+.partenaires {
+  background-image: url(asset/bg-image-2.png); 
+  .galerie-logos {
+    margin: 48px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  img {
+    height: 80px;
+    /* width: 150px; */
+  }
 }
