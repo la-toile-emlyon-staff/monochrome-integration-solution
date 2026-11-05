@@ -26,7 +26,6 @@ section {
   padding: 60px 0;  
 }
 
-
 header {
   display: flex;
   justify-content: space-between;
@@ -123,5 +122,22 @@ header {
   }
   .bouton {
     align-self: center;
+  }
+}
+
+.galerie-projets {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  article {
+    width: 370px;
+    img {
+      width: 100%;
+    }
+    h3 {
+      margin-bottom: 16px;
+    }
   }
 }
