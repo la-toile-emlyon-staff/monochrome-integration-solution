@@ -79,3 +79,14 @@ header {
   }
 }
 
+.bouton {
+  padding: 7px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block
+}
+
+.bouton.sombre {
+  background-color: #353434;
+  color: white;
+}
