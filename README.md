@@ -1,23 +1,18 @@
-# MONOCHROME - Intégration d'une maquette 
-Intégration d'une maquette figma fournie.
+# Intégration maquette Monochrome : Proposition de Solution
 
-[Lien vers la maquette sur figma](https://www.figma.com/design/lbTwT43mXkD5ooMVAt7MWT/monochrome-integration-26-S1?node-id=3139-47&t=6RCmrxEFp5RTkWfq-1)
+Voici une proposition de correction pour la maquette monochrome, qui pourra vous permettre de _suivre la réalisation pas à pas grâce à l'historique de commits_ (de sauvegardes)
 
-## Partie 1- Découpage et intégration HTML brut
+Vous pouvez **l'ouvrir avec Github Desktop** de la manière suivante : 
 
-1. Faire le découpage de la maquette sur papier.
+1. cliquer sur le bouton Code
+2. cliquer sur Open with Github Desktop
 
-2. Intégration du contenu du site, sans mise en page. Focus sur la sémantique HTML.
+![cloner le dépôt](./github-open-repo-github-desktop.png)
 
-Les images et asset sont fournie dans le dossier "asset"
-[Lien vers la correction du découpage](https://www.figma.com/design/lbTwT43mXkD5ooMVAt7MWT/monochrome-integration-26-S1?node-id=2053-235&t=6RCmrxEFp5RTkWfq-1)
+Pour **suivre la correction pas à pas**, vous pouvez _visualiser tour à tour chacune des sauvegardes_ (commit) depuis l'**onglet History**.
+Pour chaque commit, vous pouvez voir les modifications apportées à chaque fichier. 
 
-[Solution HTML brut](https://github.com/la-toile-emlyon-staff/monochrome-integration/blob/raw-html-solution/index.html) qui peut servir de base avant la partie 2.
+Dans la capture ci-dessous, les fichiers index.html et style.css ont été modifiés.
+On voit à l'écran la modification du fichier style.css après avoir cliqué sur le nom du fichier.
 
-## Partie 2 - Mise en page
-
-Intégration de manière la plus fidèle possible la maquette, en utilisant flexbox et une classe container.
-
-## Bonus : Responsive design
-
-Faire en sorte que l'intégration soit cohérente en mode mobile
+![modification du fichier style.css](./preview-commit-github-desktop.png)
